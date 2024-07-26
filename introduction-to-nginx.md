@@ -137,17 +137,17 @@ Docker is a platform for developing, shipping, and running applications in conta
 
      ![Running Docker Container](path/to/run-screenshot.png)
 
-2. **Create Port Forwarding with tiaforward**:
-   - Use the `tiaforward` utility to create the necessary port forwarding to the container:
+2. **Create Port Forwarding with tia-expose**:
+   - Use the `tia-expose` utility to create the necessary port forwarding to the container:
      ```bash
-     tiaforward my-nginx-container 80
+     tia-expose my-nginx-container 80
      ```
-   - **Screenshot: Using tiaforward**
+   - **Screenshot: Using tia-expose**
 
-     ![Using tiaforward](path/to/tiaforward-screenshot.png)
+     ![Using tia-expose](path/to/tia-expose-screenshot.png)
 
 3. **Open in Browser**:
-   - Open your web browser and go to the forwarded URL provided by `tiaforward`.
+   - Open your web browser and go to the forwarded URL provided by `tia-expose`.
    - You should see the message "Hello, World! Welcome to your NGINX server running in Docker."
    - **Screenshot: Hello World in Browser**
 
@@ -205,18 +205,18 @@ Docker is a platform for developing, shipping, and running applications in conta
 
      ![Docker Compose Up](path/to/compose-up-screenshot.png)
 
-3. **Create Port Forwarding with tiaforward**:
-   - Use the `tiaforward` utility to create the necessary port forwarding to the container started by Docker Compose:
+3. **Create Port Forwarding with tia-expose**:
+   - Use the `tia-expose` utility to create the necessary port forwarding to the container started by Docker Compose:
      ```bash
-     tiaforward <service_name> 80
+     tia-expose <service_name> 80
      ```
    - Replace `<service_name>` with the name of the service defined in your `docker-compose.yml` file.
-   - **Screenshot: Using tiaforward with Docker Compose**
+   - **Screenshot: Using tia-expose with Docker Compose**
 
-     ![Using tiaforward with Docker Compose](path/to/tiaforward-compose-screenshot.png)
+     ![Using tia-expose with Docker Compose](path/to/tia-expose-compose-screenshot.png)
 
 4. **Open in Browser**:
-   - Open your web browser and go to the forwarded URL provided by `tiaforward`.
+   - Open your web browser and go to the forwarded URL provided by `tia-expose`.
    - You should see the message "Hello, World! Welcome to your NGINX server running in Docker."
    - **Screenshot: Hello World in Browser**
 
@@ -227,7 +227,3 @@ Docker is a platform for developing, shipping, and running applications in conta
 ## Conclusion
 
 You have successfully created a Dockerfile, built a Docker image, run a Docker container, debugged the container, and used Docker Compose to manage your NGINX server. Your NGINX server is now running inside a Docker container, and you can share your project with others knowing it will work the same way on their systems.
-
----
-
-Feel free to replace placeholder text like `<container_id>` and `<service_name>` with the actual IDs or values you get during your setup and add relevant screenshots to make it a visually rich and easy-to-follow document.
