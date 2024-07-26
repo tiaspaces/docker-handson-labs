@@ -1,5 +1,3 @@
-Docker Hands-On Walkthrough: Setting Up an NGINX Server
-
 # Docker Hands-On Walkthrough: Setting Up an NGINX Server
 
 ## Introduction
@@ -28,19 +26,6 @@ Docker is a platform for developing, shipping, and running applications in conta
 
      ![Docker Version](path/to/docker-version-screenshot.png)
 
-### Install Visual Studio Code (TiaSpaces)
-
-1. **Download TiaSpaces**:
-   - Go to [Visual Studio Code](https://code.visualstudio.com/) and download the installer for your operating system.
-   - **Screenshot: TiaSpaces download page**
-
-     ![Download TiaSpaces](path/to/tiaspaces-download-page-screenshot.png)
-
-2. **Install TiaSpaces**:
-   - Run the installer and follow the on-screen instructions.
-   - **Screenshot: TiaSpaces installation process**
-
-     ![Install TiaSpaces](path/to/tiaspaces-installation-screenshot.png)
 
 ---
 
