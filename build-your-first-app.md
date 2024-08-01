@@ -101,12 +101,51 @@ Your Flask application should now be accessible at `http://localhost:7001`. Open
 
 #### 8. Expose Your Application to the Internet
 
-If you want to expose your application to the internet, use the following command to set up port forwarding:
+To expose your application to the internet, use the following command to set up port forwarding:
 
 ```bash
 tia-expose 7001
 ```
 
-This command is the tool that exposes local ports to the internet. 
+This command will expose port 7001 to the internet using Tiaspaces’ port forwarding tool. 
+
+
+#### 9. Verify Container Logs (Optional)
+
+If something isn’t working as expected, you can check the logs of your container with:
+
+```bash
+docker logs <container-id>
+```
+
+Replace `<container-id>` with the actual ID of your container.
+
+#### 10. Debugging (Optional)
+
+To debug issues within the running container, open a shell session inside the container with:
+
+```bash
+docker exec -it <container-id> /bin/sh
+```
+
+This command will give you access to a shell inside the container for troubleshooting.
+
+#### 11. Clean Up (Optional)
+
+After you're done, you can stop the container with:
+
+```bash
+docker stop <container-id>
+```
+
+And remove it with:
+
+```bash
+docker rm <container-id>
+```
+
+This helps keep your environment tidy by removing stopped containers.
 
 ---
+
+This guide now includes additional steps for checking logs, debugging, and cleaning up, providing a more comprehensive experience for students.
