@@ -99,8 +99,6 @@ If you want to expose your application to the internet, use the following comman
 tia-expose 7001
 ```
 
-This command assumes you have a tool or service that can expose local ports to the internet. Replace `tia-expose` with the appropriate command or service name for your environment.
+This command is the tool that exposes local ports to the internet. 
 
 ---
-
-Feel free to adjust the guide based on the specific requirements of your setup or any additional steps you want to include.
