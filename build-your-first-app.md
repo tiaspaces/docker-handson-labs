@@ -89,7 +89,7 @@ docker container ls
 
 ```bash
 CONTAINER ID   IMAGE     COMMAND               CREATED             STATUS             PORTS                                       NAMES
-d3871ccbfb2b   webapp    "python app/app.py"   About an hour ago   Up About an hour   0.0.0.0:5000->5000/tcp, :::5000->5000/tcp   musing_mirzakhani
+d3871ccbfb2b   webapp    "python app/app.py"   About an hour ago   Up About an hour   0.0.0.0:7001->5000/tcp, :::7001->5000/tcp   musing_mirzakhani
 ```
 
 - **-p 7001:5000**: Maps port 7001 on your host to port 5000 in the container.
