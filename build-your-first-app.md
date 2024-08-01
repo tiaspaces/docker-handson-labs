@@ -1,6 +1,3 @@
-Your interactive walkthrough guide is clear and covers the essential steps for creating, running, and exposing a Docker image. Here's a polished version with additional details and explanations to ensure that students understand each step:
-
----
 
 ### Interactive Docker Walkthrough
 
