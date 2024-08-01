@@ -5,7 +5,7 @@ Welcome to your hands-on experience with Docker! Follow the steps below to set u
 
 #### 1. Clone the Repository
 
-Start by cloning the repository to your local machine. Open Visual Studio Code and follow these steps:
+Start by cloning the repository to your sandbox. Open Tiaspaces and follow these steps:
 
 ```bash
 git clone <repo-url>
@@ -75,7 +75,7 @@ docker build -t webapp .
 
 #### 6. Run the Docker Container
 
-Start a container from the built image and map the container’s port to a port on your local machine:
+Start a container from the built image and map the container’s port to a port on your sandbox:
 
 ```bash
 docker run -p 7001:5000 webapp
