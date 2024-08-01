@@ -81,6 +81,17 @@ Start a container from the built image and map the container’s port to a port 
 docker run -p 7001:5000 webapp
 ```
 
+Verify by typing;
+
+```bash
+docker container ls
+```
+
+```bash
+CONTAINER ID   IMAGE     COMMAND               CREATED             STATUS             PORTS                                       NAMES
+d3871ccbfb2b   webapp    "python app/app.py"   About an hour ago   Up About an hour   0.0.0.0:5000->5000/tcp, :::5000->5000/tcp   musing_mirzakhani
+```
+
 - **-p 7001:5000**: Maps port 7001 on your host to port 5000 in the container.
 - **webapp**: The name of the Docker image.
 
